@@ -1,0 +1,27 @@
+name: Build and Deploy Hugo Site
+
+on:
+  push:
+    branches:
+      - main  # main 브랜치에 푸시될 때마다 자동으로 실행
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Ubuntu 환경에서 실행
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # 리포지토리에서 소스를 체크아웃
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2  # Hugo를 설치하는 GitHub Action
+
+      - name: Build the site
+        run: hugo -D  # 드래프트 상태 포함 빌드
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4  # GitHub Pages에 배포하는 Action
+        with:
+          branch: gh-pages  # GitHub Pages의 배포 브랜치
+          folder: public  # Hugo 빌드 결과물이 저장된 디렉토리
+          token: ${{ secrets.GITHUB_TOKEN }}  # GitHub의 기본 인증 토큰
