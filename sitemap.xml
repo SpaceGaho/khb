@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/khb/</loc>
+    <loc>https://SpaceGaho.github.io/khb/</loc>
     <lastmod>2025-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/khb/about/</loc>
+    <loc>https://SpaceGaho.github.io/khb/about/</loc>
     <lastmod>2025-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/khb/projects/</loc>
+    <loc>https://SpaceGaho.github.io/khb/projects/</loc>
     <lastmod>2025-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/khb/categories/</loc>
+    <loc>https://SpaceGaho.github.io/khb/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/khb/tags/</loc>
+    <loc>https://SpaceGaho.github.io/khb/tags/</loc>
   </url>
 </urlset>
