@@ -1,6 +1,7 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+
 [submodule "public"]
   path = public
-  url = https://github.com/SpaceGaho/khb.git  # 또는 적절한 URL
+  url = https://github.com/SpaceGaho/khb.git
