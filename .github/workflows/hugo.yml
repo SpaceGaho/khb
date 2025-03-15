@@ -7,21 +7,23 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Ubuntu 환경에서 실행
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2  # 리포지토리에서 소스를 체크아웃
+        uses: actions/checkout@v2
+        with:
+          submodules: true  # 서브모듈 초기화
 
       - name: Set up Hugo
-        uses: peaceiris/actions-hugo@v2  # Hugo를 설치하는 GitHub Action
+        uses: peaceiris/actions-hugo@v2
 
       - name: Build the site
-        run: hugo -D  # 드래프트 상태 포함 빌드
+        run: hugo -D
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages  # GitHub Pages의 배포 브랜치
-          folder: public  # Hugo 빌드 결과물이 저장된 디렉토리
-          token: ${{ secrets.GH_TOKEN }}  # GitHub의 기본 인증 토큰
+          branch: gh-pages
+          folder: public
+          token: ${{ secrets.GH_TOKEN }}
