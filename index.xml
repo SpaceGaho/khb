@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>My Portfolio</title>
+    <link>http://localhost:1313/khb/</link>
+    <description>Recent content on My Portfolio</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/khb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/khb/about/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/khb/about/</guid>
+      <description>&lt;h1 id=&#34;hello-im-keonho-ban&#34;&gt;Hello, I&amp;rsquo;m Keonho Ban&lt;/h1&gt;
+&lt;p&gt;I am a DevOps/SRE engineer with experience in Terraform, Kubernetes, and AWS. I specialize in automating infrastructure and ensuring seamless operations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/khb/projects/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/khb/projects/</guid>
+      <description>&lt;h2 id=&#34;project-1-terraform-infrastructure-automation&#34;&gt;Project 1 Terraform Infrastructure Automation&lt;/h2&gt;
+&lt;p&gt;Description of the project and technologies used.&lt;/p&gt;
+&lt;h2 id=&#34;project-2-kubernetes-cluster-setup&#34;&gt;Project 2 Kubernetes Cluster Setup&lt;/h2&gt;
+&lt;p&gt;Description of the project and technologies used.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
