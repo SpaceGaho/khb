@@ -20,8 +20,8 @@ jobs:
         run: hugo -D  # 드래프트 상태 포함 빌드
 
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4  # GitHub Pages에 배포하는 Action
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages  # GitHub Pages의 배포 브랜치
           folder: public  # Hugo 빌드 결과물이 저장된 디렉토리
-          token: ${{ secrets.GITHUB_TOKEN }}  # GitHub의 기본 인증 토큰
+          token: ${{ secrets.GH_TOKEN }}  # GitHub의 기본 인증 토큰
